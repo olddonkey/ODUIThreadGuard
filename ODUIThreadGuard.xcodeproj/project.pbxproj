@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A20D350F1E0CFD9E00E6F975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20D350E1E0CFD9E00E6F975 /* AppDelegate.swift */; };
+		A20D35111E0CFD9E00E6F975 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20D35101E0CFD9E00E6F975 /* ViewController.swift */; };
+		A20D35141E0CFD9E00E6F975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20D35121E0CFD9E00E6F975 /* Main.storyboard */; };
+		A20D35161E0CFD9E00E6F975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20D35151E0CFD9E00E6F975 /* Assets.xcassets */; };
+		A20D35191E0CFD9E00E6F975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20D35171E0CFD9E00E6F975 /* LaunchScreen.storyboard */; };
+		A20D35241E0CFD9F00E6F975 /* ODUIThreadGuardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20D35231E0CFD9F00E6F975 /* ODUIThreadGuardTests.swift */; };
+		A20D352F1E0CFD9F00E6F975 /* ODUIThreadGuardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20D352E1E0CFD9F00E6F975 /* ODUIThreadGuardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A20D35201E0CFD9F00E6F975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A20D35031E0CFD9E00E6F975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A20D350A1E0CFD9E00E6F975;
+			remoteInfo = ODUIThreadGuard;
+		};
+		A20D352B1E0CFD9F00E6F975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A20D35031E0CFD9E00E6F975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A20D350A1E0CFD9E00E6F975;
+			remoteInfo = ODUIThreadGuard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A20D350B1E0CFD9E00E6F975 /* ODUIThreadGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ODUIThreadGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20D350E1E0CFD9E00E6F975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A20D35101E0CFD9E00E6F975 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A20D35131E0CFD9E00E6F975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A20D35151E0CFD9E00E6F975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20D35181E0CFD9E00E6F975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A20D351A1E0CFD9E00E6F975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20D351F1E0CFD9F00E6F975 /* ODUIThreadGuardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ODUIThreadGuardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20D35231E0CFD9F00E6F975 /* ODUIThreadGuardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODUIThreadGuardTests.swift; sourceTree = "<group>"; };
+		A20D35251E0CFD9F00E6F975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20D352A1E0CFD9F00E6F975 /* ODUIThreadGuardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ODUIThreadGuardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20D352E1E0CFD9F00E6F975 /* ODUIThreadGuardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODUIThreadGuardUITests.swift; sourceTree = "<group>"; };
+		A20D35301E0CFD9F00E6F975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A20D35081E0CFD9E00E6F975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20D351C1E0CFD9F00E6F975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20D35271E0CFD9F00E6F975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A20D35021E0CFD9E00E6F975 = {
+			isa = PBXGroup;
+			children = (
+				A20D350D1E0CFD9E00E6F975 /* ODUIThreadGuard */,
+				A20D35221E0CFD9F00E6F975 /* ODUIThreadGuardTests */,
+				A20D352D1E0CFD9F00E6F975 /* ODUIThreadGuardUITests */,
+				A20D350C1E0CFD9E00E6F975 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A20D350C1E0CFD9E00E6F975 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20D350B1E0CFD9E00E6F975 /* ODUIThreadGuard.app */,
+				A20D351F1E0CFD9F00E6F975 /* ODUIThreadGuardTests.xctest */,
+				A20D352A1E0CFD9F00E6F975 /* ODUIThreadGuardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A20D350D1E0CFD9E00E6F975 /* ODUIThreadGuard */ = {
+			isa = PBXGroup;
+			children = (
+				A20D350E1E0CFD9E00E6F975 /* AppDelegate.swift */,
+				A20D35101E0CFD9E00E6F975 /* ViewController.swift */,
+				A20D35121E0CFD9E00E6F975 /* Main.storyboard */,
+				A20D35151E0CFD9E00E6F975 /* Assets.xcassets */,
+				A20D35171E0CFD9E00E6F975 /* LaunchScreen.storyboard */,
+				A20D351A1E0CFD9E00E6F975 /* Info.plist */,
+			);
+			path = ODUIThreadGuard;
+			sourceTree = "<group>";
+		};
+		A20D35221E0CFD9F00E6F975 /* ODUIThreadGuardTests */ = {
+			isa = PBXGroup;
+			children = (
+				A20D35231E0CFD9F00E6F975 /* ODUIThreadGuardTests.swift */,
+				A20D35251E0CFD9F00E6F975 /* Info.plist */,
+			);
+			path = ODUIThreadGuardTests;
+			sourceTree = "<group>";
+		};
+		A20D352D1E0CFD9F00E6F975 /* ODUIThreadGuardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A20D352E1E0CFD9F00E6F975 /* ODUIThreadGuardUITests.swift */,
+				A20D35301E0CFD9F00E6F975 /* Info.plist */,
+			);
+			path = ODUIThreadGuardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A20D350A1E0CFD9E00E6F975 /* ODUIThreadGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20D35331E0CFD9F00E6F975 /* Build configuration list for PBXNativeTarget "ODUIThreadGuard" */;
+			buildPhases = (
+				A20D35071E0CFD9E00E6F975 /* Sources */,
+				A20D35081E0CFD9E00E6F975 /* Frameworks */,
+				A20D35091E0CFD9E00E6F975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ODUIThreadGuard;
+			productName = ODUIThreadGuard;
+			productReference = A20D350B1E0CFD9E00E6F975 /* ODUIThreadGuard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A20D351E1E0CFD9F00E6F975 /* ODUIThreadGuardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20D35361E0CFD9F00E6F975 /* Build configuration list for PBXNativeTarget "ODUIThreadGuardTests" */;
+			buildPhases = (
+				A20D351B1E0CFD9F00E6F975 /* Sources */,
+				A20D351C1E0CFD9F00E6F975 /* Frameworks */,
+				A20D351D1E0CFD9F00E6F975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A20D35211E0CFD9F00E6F975 /* PBXTargetDependency */,
+			);
+			name = ODUIThreadGuardTests;
+			productName = ODUIThreadGuardTests;
+			productReference = A20D351F1E0CFD9F00E6F975 /* ODUIThreadGuardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A20D35291E0CFD9F00E6F975 /* ODUIThreadGuardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A20D35391E0CFD9F00E6F975 /* Build configuration list for PBXNativeTarget "ODUIThreadGuardUITests" */;
+			buildPhases = (
+				A20D35261E0CFD9F00E6F975 /* Sources */,
+				A20D35271E0CFD9F00E6F975 /* Frameworks */,
+				A20D35281E0CFD9F00E6F975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A20D352C1E0CFD9F00E6F975 /* PBXTargetDependency */,
+			);
+			name = ODUIThreadGuardUITests;
+			productName = ODUIThreadGuardUITests;
+			productReference = A20D352A1E0CFD9F00E6F975 /* ODUIThreadGuardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A20D35031E0CFD9E00E6F975 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Old Donkey";
+				TargetAttributes = {
+					A20D350A1E0CFD9E00E6F975 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KACMQNFS8H;
+						ProvisioningStyle = Automatic;
+					};
+					A20D351E1E0CFD9F00E6F975 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KACMQNFS8H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A20D350A1E0CFD9E00E6F975;
+					};
+					A20D35291E0CFD9F00E6F975 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KACMQNFS8H;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A20D350A1E0CFD9E00E6F975;
+					};
+				};
+			};
+			buildConfigurationList = A20D35061E0CFD9E00E6F975 /* Build configuration list for PBXProject "ODUIThreadGuard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A20D35021E0CFD9E00E6F975;
+			productRefGroup = A20D350C1E0CFD9E00E6F975 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A20D350A1E0CFD9E00E6F975 /* ODUIThreadGuard */,
+				A20D351E1E0CFD9F00E6F975 /* ODUIThreadGuardTests */,
+				A20D35291E0CFD9F00E6F975 /* ODUIThreadGuardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A20D35091E0CFD9E00E6F975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20D35191E0CFD9E00E6F975 /* LaunchScreen.storyboard in Resources */,
+				A20D35161E0CFD9E00E6F975 /* Assets.xcassets in Resources */,
+				A20D35141E0CFD9E00E6F975 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20D351D1E0CFD9F00E6F975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20D35281E0CFD9F00E6F975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A20D35071E0CFD9E00E6F975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20D35111E0CFD9E00E6F975 /* ViewController.swift in Sources */,
+				A20D350F1E0CFD9E00E6F975 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20D351B1E0CFD9F00E6F975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20D35241E0CFD9F00E6F975 /* ODUIThreadGuardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20D35261E0CFD9F00E6F975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A20D352F1E0CFD9F00E6F975 /* ODUIThreadGuardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A20D35211E0CFD9F00E6F975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A20D350A1E0CFD9E00E6F975 /* ODUIThreadGuard */;
+			targetProxy = A20D35201E0CFD9F00E6F975 /* PBXContainerItemProxy */;
+		};
+		A20D352C1E0CFD9F00E6F975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A20D350A1E0CFD9E00E6F975 /* ODUIThreadGuard */;
+			targetProxy = A20D352B1E0CFD9F00E6F975 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A20D35121E0CFD9E00E6F975 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A20D35131E0CFD9E00E6F975 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A20D35171E0CFD9E00E6F975 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A20D35181E0CFD9E00E6F975 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A20D35311E0CFD9F00E6F975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A20D35321E0CFD9F00E6F975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A20D35341E0CFD9F00E6F975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KACMQNFS8H;
+				INFOPLIST_FILE = ODUIThreadGuard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olddonkey.ODUIThreadGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A20D35351E0CFD9F00E6F975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KACMQNFS8H;
+				INFOPLIST_FILE = ODUIThreadGuard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olddonkey.ODUIThreadGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A20D35371E0CFD9F00E6F975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KACMQNFS8H;
+				INFOPLIST_FILE = ODUIThreadGuardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olddonkey.ODUIThreadGuardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ODUIThreadGuard.app/ODUIThreadGuard";
+			};
+			name = Debug;
+		};
+		A20D35381E0CFD9F00E6F975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KACMQNFS8H;
+				INFOPLIST_FILE = ODUIThreadGuardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olddonkey.ODUIThreadGuardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ODUIThreadGuard.app/ODUIThreadGuard";
+			};
+			name = Release;
+		};
+		A20D353A1E0CFD9F00E6F975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KACMQNFS8H;
+				INFOPLIST_FILE = ODUIThreadGuardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olddonkey.ODUIThreadGuardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ODUIThreadGuard;
+			};
+			name = Debug;
+		};
+		A20D353B1E0CFD9F00E6F975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = KACMQNFS8H;
+				INFOPLIST_FILE = ODUIThreadGuardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.olddonkey.ODUIThreadGuardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ODUIThreadGuard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A20D35061E0CFD9E00E6F975 /* Build configuration list for PBXProject "ODUIThreadGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20D35311E0CFD9F00E6F975 /* Debug */,
+				A20D35321E0CFD9F00E6F975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A20D35331E0CFD9F00E6F975 /* Build configuration list for PBXNativeTarget "ODUIThreadGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20D35341E0CFD9F00E6F975 /* Debug */,
+				A20D35351E0CFD9F00E6F975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A20D35361E0CFD9F00E6F975 /* Build configuration list for PBXNativeTarget "ODUIThreadGuardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20D35371E0CFD9F00E6F975 /* Debug */,
+				A20D35381E0CFD9F00E6F975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A20D35391E0CFD9F00E6F975 /* Build configuration list for PBXNativeTarget "ODUIThreadGuardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20D353A1E0CFD9F00E6F975 /* Debug */,
+				A20D353B1E0CFD9F00E6F975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A20D35031E0CFD9E00E6F975 /* Project object */;
+}
