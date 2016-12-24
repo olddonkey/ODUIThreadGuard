@@ -2,7 +2,8 @@
 
 </p>
 
-ODUIThreadGuard is a guard to help me check if you make UI changes not in main thread
+ODUIThreadGuard is a guard to help me check if you make UI changes not in main thread. 
+Highly recommand you add this file to your project as early as possible.
 
 
 ## Features
