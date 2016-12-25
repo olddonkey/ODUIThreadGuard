@@ -14,7 +14,7 @@ Highly recommand you add this file to your project as early as possible.
 
 ## Usage
 
-#Use CocoaPods or Cathage or just pull the ODUIThreadGuard.swift file into your project.
+Use CocoaPods or Cathage or just pull the ODUIThreadGuard.swift file into your project.
 
 You can change the pre compile flag to change the setting, in default, this only runs in DEBUG mode, so won't affact users in Release.
 
