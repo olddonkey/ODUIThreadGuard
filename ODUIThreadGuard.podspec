@@ -118,7 +118,7 @@ ODUIThreadGuard is a guard to help me check if you make UI changes not in main t
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "'Foundation', 'UIKit'"
+  s.frameworks = 'Foundation', 'UIKit'
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
