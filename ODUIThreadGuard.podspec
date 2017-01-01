@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "ODUIThreadGuard"
   s.version      = "1.0.0"
-  s.summary      = "ODUIThreadGuard is a guard to help me check if you make UI changes not in main thread. Highly recommand you add this file to your project as early as possible."
+s.summary      = "ODUIThreadGuard is a guard to help me check if you make UI changes not in main thread."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-ODUIThreadGuard is a guard to help me check if you make UI changes not in main thread.
+ODUIThreadGuard is a guard to help me check if you make UI changes not in main thread. Highly recommand you add this file to your project as early as possible.
                    DESC
 
   s.homepage     = "https://github.com/olddonkey/ODUIThreadGuard"
