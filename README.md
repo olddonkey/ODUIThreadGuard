@@ -8,7 +8,8 @@ Highly recommand you add this file to your project as early as possible.
 
 ## Features
 
-- [x] Easily know if you make UI changes not in main thread accidently
+- [x] Passive implementation
+- [x] Throw an assertion if setNeedsDisplay, setNeedsLayout, or setNeedsDisplayInRect: is called for instantion of any UIView 
 - [x] Get the thread stack to help you locate where you make the mistake
 
 
