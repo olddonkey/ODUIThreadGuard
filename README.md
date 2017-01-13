@@ -1,8 +1,9 @@
 # ODUIThreadGuard
 
+```
 Quick update: Thanks for everyone's issue, I will update a new version soon. This is a small component I created for myself use at first, but now, looks like it is more popular than I expected.
-
 Thanks again for your help and support, I will make a update ASAP
+```
 
 </p>
 
