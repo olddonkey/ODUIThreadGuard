@@ -10,9 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var testLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    @IBAction func runNotOnMainThread(_ sender: Any) {
+        DispatchQueue.global().async {
+            self.testLabel.text = "Not on main thread"
+        }
+    }
+    
+    @IBAction func runOnMainThread(_ sender: Any) {
+        DispatchQueue.main.async {
+            self.testLabel.text = "On main thread"
+        }
     }
 
     override func didReceiveMemoryWarning() {

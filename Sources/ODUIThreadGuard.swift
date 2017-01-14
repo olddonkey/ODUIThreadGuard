@@ -15,7 +15,7 @@
 import UIKit
 
 /// It is better to use a debug flag here for not add this extension to Release build. (You don't want user see App crash)
-#if DEBUG
+#if debug
 private let swizzle: (String, String, UIView.Type) -> Void = { (originalMethod, swizzledMethod, view) in
     let originalSelector = Selector(originalMethod)
     let swizzledSelector = Selector(swizzledMethod)

@@ -14,7 +14,7 @@
 		A20D35191E0CFD9E00E6F975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20D35171E0CFD9E00E6F975 /* LaunchScreen.storyboard */; };
 		A20D35241E0CFD9F00E6F975 /* ODUIThreadGuardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20D35231E0CFD9F00E6F975 /* ODUIThreadGuardTests.swift */; };
 		A20D352F1E0CFD9F00E6F975 /* ODUIThreadGuardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20D352E1E0CFD9F00E6F975 /* ODUIThreadGuardUITests.swift */; };
-		A20D353D1E0CFE3000E6F975 /* ODUIThreadGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20D353C1E0CFE3000E6F975 /* ODUIThreadGuard.swift */; };
+		A2E1E30C1E2A897F00EF4C85 /* ODUIThreadGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1E30B1E2A897F00EF4C85 /* ODUIThreadGuard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		A20D352A1E0CFD9F00E6F975 /* ODUIThreadGuardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ODUIThreadGuardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20D352E1E0CFD9F00E6F975 /* ODUIThreadGuardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODUIThreadGuardUITests.swift; sourceTree = "<group>"; };
 		A20D35301E0CFD9F00E6F975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A20D353C1E0CFE3000E6F975 /* ODUIThreadGuard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODUIThreadGuard.swift; sourceTree = "<group>"; };
+		A2E1E30B1E2A897F00EF4C85 /* ODUIThreadGuard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODUIThreadGuard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +99,13 @@
 		A20D350D1E0CFD9E00E6F975 /* ODUIThreadGuard */ = {
 			isa = PBXGroup;
 			children = (
+				A2E1E3081E2A86D500EF4C85 /* Sources */,
 				A20D350E1E0CFD9E00E6F975 /* AppDelegate.swift */,
 				A20D35101E0CFD9E00E6F975 /* ViewController.swift */,
 				A20D35121E0CFD9E00E6F975 /* Main.storyboard */,
 				A20D35151E0CFD9E00E6F975 /* Assets.xcassets */,
 				A20D35171E0CFD9E00E6F975 /* LaunchScreen.storyboard */,
 				A20D351A1E0CFD9E00E6F975 /* Info.plist */,
-				A20D353C1E0CFE3000E6F975 /* ODUIThreadGuard.swift */,
 			);
 			path = ODUIThreadGuard;
 			sourceTree = "<group>";
@@ -126,6 +126,14 @@
 				A20D35301E0CFD9F00E6F975 /* Info.plist */,
 			);
 			path = ODUIThreadGuardUITests;
+			sourceTree = "<group>";
+		};
+		A2E1E3081E2A86D500EF4C85 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A2E1E30B1E2A897F00EF4C85 /* ODUIThreadGuard.swift */,
+			);
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +275,7 @@
 			files = (
 				A20D35111E0CFD9E00E6F975 /* ViewController.swift in Sources */,
 				A20D350F1E0CFD9E00E6F975 /* AppDelegate.swift in Sources */,
-				A20D353D1E0CFE3000E6F975 /* ODUIThreadGuard.swift in Sources */,
+				A2E1E30C1E2A897F00EF4C85 /* ODUIThreadGuard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +526,7 @@
 				A20D35351E0CFD9F00E6F975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A20D35361E0CFD9F00E6F975 /* Build configuration list for PBXNativeTarget "ODUIThreadGuardTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +535,7 @@
 				A20D35381E0CFD9F00E6F975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A20D35391E0CFD9F00E6F975 /* Build configuration list for PBXNativeTarget "ODUIThreadGuardUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +544,7 @@
 				A20D353B1E0CFD9F00E6F975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
