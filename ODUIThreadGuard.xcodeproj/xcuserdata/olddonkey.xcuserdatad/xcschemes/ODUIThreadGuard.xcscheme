@@ -48,6 +48,16 @@
                ReferencedContainer = "container:ODUIThreadGuard.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A2E1E3191E2AC72400EF4C85"
+               BuildableName = "ODUIThreadGuardFrameWorkTests.xctest"
+               BlueprintName = "ODUIThreadGuardFrameWorkTests"
+               ReferencedContainer = "container:ODUIThreadGuard.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

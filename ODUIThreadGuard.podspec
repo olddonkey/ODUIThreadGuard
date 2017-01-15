@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ODUIThreadGuard"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
 s.summary      = "ODUIThreadGuard is a guard to help me check if you make UI changes not in main thread."
 
   # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ ODUIThreadGuard is a guard to help me check if you make UI changes not in main t
                    DESC
 
   s.homepage     = "https://github.com/olddonkey/ODUIThreadGuard"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+s.screenshots  = "https://github.com/olddonkey/ODUIThreadGuard/blob/master/DemoScreenShot.jpeg"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ ODUIThreadGuard is a guard to help me check if you make UI changes not in main t
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "ODUIThreadGuard/*.swift"
+  s.source_files  = "Sources/*.swift"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

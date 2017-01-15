@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>ODUIThreadGuardFrameWork.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>A20D35291E0CFD9F00E6F975</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2E1E3111E2AC72400EF4C85</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2E1E3191E2AC72400EF4C85</key>
 		<dict>
 			<key>primary</key>
 			<true/>
