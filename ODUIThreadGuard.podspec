@@ -29,7 +29,7 @@ ODUIThreadGuard is a guard to help me check if you make UI changes not in main t
                    DESC
 
   s.homepage     = "https://github.com/olddonkey/ODUIThreadGuard"
-s.screenshots  = "https://github.com/olddonkey/ODUIThreadGuard/blob/master/DemoScreenShot.jpeg"
+s.screenshots  = "https://raw.githubusercontent.com/olddonkey/ODUIThreadGuard/master/DemoScreenShot.jpeg"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
