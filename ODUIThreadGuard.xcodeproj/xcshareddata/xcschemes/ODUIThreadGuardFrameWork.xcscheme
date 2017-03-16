@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A2E1E3111E2AC72400EF4C85"
-               BuildableName = "ODUIThreadGuardFrameWork.framework"
+               BuildableName = "ODUIThreadGuard.framework"
                BlueprintName = "ODUIThreadGuardFrameWork"
                ReferencedContainer = "container:ODUIThreadGuard.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A2E1E3111E2AC72400EF4C85"
-            BuildableName = "ODUIThreadGuardFrameWork.framework"
+            BuildableName = "ODUIThreadGuard.framework"
             BlueprintName = "ODUIThreadGuardFrameWork"
             ReferencedContainer = "container:ODUIThreadGuard.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A2E1E3111E2AC72400EF4C85"
-            BuildableName = "ODUIThreadGuardFrameWork.framework"
+            BuildableName = "ODUIThreadGuard.framework"
             BlueprintName = "ODUIThreadGuardFrameWork"
             ReferencedContainer = "container:ODUIThreadGuard.xcodeproj">
          </BuildableReference>

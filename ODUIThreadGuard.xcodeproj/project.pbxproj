@@ -14,6 +14,8 @@
 		A20D35191E0CFD9E00E6F975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20D35171E0CFD9E00E6F975 /* LaunchScreen.storyboard */; };
 		A20D35241E0CFD9F00E6F975 /* ODUIThreadGuardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20D35231E0CFD9F00E6F975 /* ODUIThreadGuardTests.swift */; };
 		A20D352F1E0CFD9F00E6F975 /* ODUIThreadGuardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20D352E1E0CFD9F00E6F975 /* ODUIThreadGuardUITests.swift */; };
+		A24998EB1E7A4B1C00283215 /* ODThreadGuardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24998EA1E7A4B1C00283215 /* ODThreadGuardManager.swift */; };
+		A24998EC1E7A4B1C00283215 /* ODThreadGuardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24998EA1E7A4B1C00283215 /* ODThreadGuardManager.swift */; };
 		A2E1E30C1E2A897F00EF4C85 /* ODUIThreadGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1E30B1E2A897F00EF4C85 /* ODUIThreadGuard.swift */; };
 		A2E1E31B1E2AC72400EF4C85 /* ODUIThreadGuard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E1E3121E2AC72400EF4C85 /* ODUIThreadGuard.framework */; };
 		A2E1E3221E2AC72400EF4C85 /* ODUIThreadGuardFrameWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1E3211E2AC72400EF4C85 /* ODUIThreadGuardFrameWorkTests.swift */; };
@@ -89,6 +91,7 @@
 		A20D352A1E0CFD9F00E6F975 /* ODUIThreadGuardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ODUIThreadGuardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20D352E1E0CFD9F00E6F975 /* ODUIThreadGuardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ODUIThreadGuardUITests.swift; sourceTree = "<group>"; };
 		A20D35301E0CFD9F00E6F975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24998EA1E7A4B1C00283215 /* ODThreadGuardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODThreadGuardManager.swift; sourceTree = "<group>"; };
 		A2E1E30B1E2A897F00EF4C85 /* ODUIThreadGuard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODUIThreadGuard.swift; sourceTree = "<group>"; };
 		A2E1E3121E2AC72400EF4C85 /* ODUIThreadGuard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ODUIThreadGuard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2E1E3141E2AC72400EF4C85 /* ODUIThreadGuardFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ODUIThreadGuardFrameWork.h; sourceTree = "<group>"; };
@@ -199,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				A2E1E30B1E2A897F00EF4C85 /* ODUIThreadGuard.swift */,
+				A24998EA1E7A4B1C00283215 /* ODThreadGuardManager.swift */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -437,6 +441,7 @@
 			files = (
 				A20D35111E0CFD9E00E6F975 /* ViewController.swift in Sources */,
 				A20D350F1E0CFD9E00E6F975 /* AppDelegate.swift in Sources */,
+				A24998EB1E7A4B1C00283215 /* ODThreadGuardManager.swift in Sources */,
 				A2E1E30C1E2A897F00EF4C85 /* ODUIThreadGuard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A24998EC1E7A4B1C00283215 /* ODThreadGuardManager.swift in Sources */,
 				A2E1E3301E2AC74100EF4C85 /* ODUIThreadGuard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -820,6 +826,7 @@
 				A2E1E32A1E2AC72400EF4C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2E1E32F1E2AC72400EF4C85 /* Build configuration list for PBXNativeTarget "ODUIThreadGuardFrameWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -828,6 +835,7 @@
 				A2E1E32C1E2AC72400EF4C85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

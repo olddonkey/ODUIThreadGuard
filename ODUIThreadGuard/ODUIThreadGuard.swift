@@ -14,6 +14,9 @@
 
 import UIKit
 
+//Change guardSwitch to bool to control
+var guardSwitch: Bool = true
+
 /// It is better to use a debug flag here for not add this extension to Release build. (You don't want user see App crash)
 #if DEBUG
 private let swizzle: (String, String, UIView.Type) -> Void = { (originalMethod, swizzledMethod, view) in
@@ -34,6 +37,7 @@ private let swizzle: (String, String, UIView.Type) -> Void = { (originalMethod, 
     
 // MARK: - A extension of UIView, basic idea is use runtime to exchange setNeedsLayout, setNeedsDisplay and setNeedsDisplayInRect with our customized method, and do the checking process in that method
 extension UIView{
+        
     open override class func initialize() {
         //If self is the subclass of UIView, return
         if self !== UIView.self {
@@ -52,22 +56,30 @@ extension UIView{
     }
     
     func guardSetNeedsLayout() {
-        checkThread()
+        if guardSwitch {
+            checkThread()
+        }
         guardSetNeedsLayout()
     }
 
     func guardSetNeedsDisplay() {
-        checkThread()
+        if guardSwitch {
+            checkThread()
+        }
         guardSetNeedsDisplay()
     }
 
     func guardSetNeedsDisplayInRect(_ rect: CGRect) {
-        checkThread()
+        if guardSwitch {
+            checkThread()
+        }
         guardSetNeedsDisplayInRect(rect)
     }
     //If not on main thread, assert the app. From the left side thread stack view, you can easily find which line has problem
     func checkThread() {
-        assert(Thread.isMainThread, "You changed UI element not on main thread")
+        if !Thread.isMainThread {
+            ODThreadGuardManager.guardManager.foundThreadError()
+        }
     }
     
 }
