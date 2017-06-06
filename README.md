@@ -1,6 +1,8 @@
 # ODUIThreadGuard
 >ODUIThreadGuard is a guard to help check if you make UI changes not in main thread.
 
+>As Xcode 9 embedded this function into Xcode, there is no reason to maintain this project in the feature, Happy Coding.
+
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-brightgreen.svg)](https://github.com/Carthage/Carthage) 
 ![CocoaPods Support](https://img.shields.io/badge/Cocoapods-compatible-brightgreen.svg) 
 ![Swift Version](https://img.shields.io/badge/Swift-3.0-orange.svg) 
